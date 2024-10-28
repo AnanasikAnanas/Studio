@@ -53,7 +53,7 @@ const Framer = () => {
   ];
 
   return (
-    <motion.div className="w-[1326px] z-20">
+    <motion.div className="w-[1326px] z-30">
       <div className="grid grid-cols-2 gap-5 h-fit">
         {items.map((item) => (
           <motion.div
@@ -90,7 +90,7 @@ const Framer = () => {
               (item) =>
                 item.id === selectedId && (
                   <motion.div
-                    className="w-[1346px] h-[787px] overflow-y-scroll rounded-[48px] bg-[#101010] border"
+                    className="w-[1346px] h-[787px] overflow-y-scroll rounded-[48px] bg-[#101010] border z-50"
                     layoutId={`card-container-${item.id}`}
                     key={item.id}
                     initial={{ scale: 0.8, opacity: 0 }}
@@ -136,7 +136,7 @@ const Framer = () => {
                           </motion.div>
                         </motion.div>
                         <div className="flex justify-center pb-12">
-                          <motion.button className="px-12 py-6 border text-[32px] rounded-3xl w-fit">
+                          <motion.button className="px-12 py-6 border text-[32px] rounded-3xl w-fit hover:bg-[#878787]/10 duration-300">
                             Подробнее
                           </motion.button>
                         </div>

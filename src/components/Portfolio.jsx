@@ -24,6 +24,9 @@ const Portfolio = () => {
           Портфолио
         </p>
         <Framer />
+        <button className="px-12 py-6 border w-fit rounded-[96px]">
+          Ещё больше работ смотрите на нашем Behance
+        </button>
       </div>
     </div>
   );
