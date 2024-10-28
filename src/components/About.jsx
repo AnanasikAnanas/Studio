@@ -19,7 +19,7 @@ const About = () => {
     <section className="container flex">
       <img src={Smile} alt="" className="absolute z-10 mt-[171px]" />
       <div className="z-20 flex flex-col gap-12 max-w-[1327px] ml-[337px]">
-        <p className="p-6 border-[1px] border-[#878787] rounded-3xl w-fit">
+        <p className="p-6 border-[1px] border-[#878787] rounded-3xl w-fit text-[#878787]">
           О нас
         </p>
         <Swiper
